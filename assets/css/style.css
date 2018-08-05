@@ -19,7 +19,7 @@ nav {
     width: 100%;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    border-bottom-color: #666;
+    border-bottom-color: #ddd;
 }
 
 ul {
@@ -55,7 +55,9 @@ li a {
 
 li a:hover {
     color: #4aaaa5;
+    background-color: #fff;
 }
+
 
 div {
     width: 960px;
@@ -72,33 +74,45 @@ hr {
 }
 
 .wrapper {
-    float: left;
-    width: 33.33%;
     padding: 5px;
     width: 920px;    
     margin: 20px;
     border-top-style: solid;
     border-top-width: 2px;
-    border-top-color: #777
+    border-top-color: #ddd;
+}
+
+.wrapperii {
+    
+    clear: both;
+    display: table;
+    padding: 5px;
+    width: 920px;    
+    margin: 20px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #ddd;
 }
 
 .container {
-    position: relative;
-    margin: 0;
     float: left;
-    width: 294px;
-    padding: 5px;
+    width: 31%;
+    margin: 0;
+    padding: 0 20px 0 0px;
 }
 
 .textimg {
-    position: absolute;
-    top: 140px;
+    position: relative;
+    top: -40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
     background-color: teal;
     color: white;
     width: 289px;
     margin-left: 5px;
-    height: 20px;
-    left: 1px;
+    height: 24px;
+    left: -4px;
 }
 
 h1 {
@@ -123,7 +137,7 @@ img {
     width: 290px;
     height: 150px;
     object-fit: cover;
-    padding: 20px 5px 0px 5px;
+    padding: 20px 0px 0px 0px;
 }
 
 
